@@ -128,8 +128,12 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
-
+.notbold{
+  font-weight:normal
+}
+img {
+  border: 1px solid var(--c-grey);
+}
 main p, footer a { font-weight: 400; }
 header, footer { padding: 16px 0; }
 
