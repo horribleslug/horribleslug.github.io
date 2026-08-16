@@ -1,0 +1,54 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: #fdf6e3;
+  line-height: 1.5;
+  /* font-family: "Cormorant Garamond", serif; */
+}
+
+/* .cormorant-garamond {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+} */
+
+a {
+  /* color: #268bd2; */
+  background: linear-gradient(70deg, #cb4b16, #6c71c4, #2aa198);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  background-clip: text;
+}
+
+hr{
+  max-width: 37rem; 
+  margin-left:0;
+  height: 2px;
+  border: none;
+  background: linear-gradient(70deg, #cb4b16, #6c71c4, #2aa198);
+}
+
+p {
+  max-width: 35rem;
+  color: #073642;
+}
+
+h2 {
+  color: #2aa198;
+}
+
+h2 a {
+  text-decoration: none;
+  background: linear-gradient(70deg, #cb4b16, #6c71c4, #2aa198);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.container {
+  padding: 1rem;
+  height: 100vh;
+}
