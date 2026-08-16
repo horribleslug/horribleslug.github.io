@@ -23,6 +23,13 @@ a {
   background-clip: text;
 }
 
+strong {
+  background: linear-gradient(70deg, #cb4b16, #6c71c4, #2aa198);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  background-clip: text;
+}
+
 hr{
   max-width: 37rem; 
   margin-left:0;
